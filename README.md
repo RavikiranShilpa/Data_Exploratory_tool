@@ -45,76 +45,50 @@ Copy code
 
 ## How to Run
 
-- **Clone the Repository:**
-  ```bash
-  git clone <REPOSITORY URL>
-  cd Data-Explorer-Tool
-Replace <REPOSITORY URL> with the actual URL of your GitHub repository.
+-# Data Explorer Tool
 
-Create a Virtual Environment (Optional but recommended):
+![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install Dependencies:
+## How to Run
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application:
-
-bash
-Copy code
-Here's a simple set of instructions in a single section with bullet points for executing the Data Explorer Tool:
-
-markdown
-Copy code
 # Data Explorer Tool
 
 ![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
 
-...
-
 ## How to Run
 
-- **Clone the Repository:**
-  ```bash
-  git clone <REPOSITORY URL>
-  cd Data-Explorer-Tool
-Replace <REPOSITORY URL> with the actual URL of your GitHub repository.
+1. **Clone the Repository:**
+    ```bash
+    git clone <REPOSITORY URL>
+    cd Data-Explorer-Tool
+    ```
+    Replace `<REPOSITORY URL>` with the actual URL of your GitHub repository.
 
-Create a Virtual Environment (Optional but recommended):
+2. **Create a Virtual Environment (Optional but recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install Dependencies:
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application:
+4. **Run the Application:**
+    ```bash
+    streamlit run data_explorer_tool.py
+    ```
+    This will start the Streamlit development server and open the application in your default web browser.
 
-bash
-Copy code
-streamlit run Data_explorer.py --server.enableXsrfProtection=false
-This will start the Streamlit development server and open the application in your default web browser.
+5. **Interact with the Application:**
+    - Open the provided URL (usually http://localhost:8501) in your web browser to access the Data Explorer Tool.
+    - Explore features, upload datasets, and ask questions about the data.
 
-Interact with the Application:
+### Important Notes:
 
-Open the provided URL (usually http://localhost:8501) in your web browser to access the Data Explorer Tool.
-Explore features, upload datasets, and ask questions about the data.
-This will start the Streamlit development server and open the application in your default web browser.
+- **Security Warning:** Streamlit may display a warning regarding security risks for file uploads. Click "Run Anyway" to proceed; this is standard for local development.
 
-Interact with the Application:
+- **Port Number:** By default, Streamlit runs on port 8501. If in use, specify a different port using `--port`, like `streamlit run data_explorer_tool.py --port 8765`.
 
-Open the provided URL (usually http://localhost:8501) in your web browser to access the Data Explorer Tool.
-Explore features, upload datasets, and ask questions about the data.
-- langchain (if using the commented-out LangChain code)
-
-Install dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
+If you encounter issues, check the terminal for error messages. For questions or assistance, feel free to ask!
