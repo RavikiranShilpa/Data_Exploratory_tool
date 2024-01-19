@@ -1,7 +1,5 @@
 # Data Explorer Tool
 
-![Data Explorer Tool Logo]
-
 ## Overview
 
 The Data Explorer Tool is a Python application designed to assist users in exploring, cleaning, and analyzing datasets. It provides interactive functionalities for data cleaning and exploration in one tab, and data analysis and prediction in another tab.
