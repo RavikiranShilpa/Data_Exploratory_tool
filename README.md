@@ -59,7 +59,7 @@ Copy code
 
 4. **Run the Application:**
     ```bash
-    streamlit run data_explorer_tool.py
+    streamlit run Data_explorer.py --server.enableXsrfProtection=false
     ```
     This will start the Streamlit development server and open the application in your default web browser.
 
@@ -71,6 +71,6 @@ Copy code
 
 - **Security Warning:** Streamlit may display a warning regarding security risks for file uploads. Click "Run Anyway" to proceed; this is standard for local development.
 
-- **Port Number:** By default, Streamlit runs on port 8501. If in use, specify a different port using `--port`, like `streamlit run data_explorer_tool.py --port 8765`.
+- **Port Number:** By default, Streamlit runs on port 8501. If in use, specify a different port using `--port`, like `streamlit run Data_explorer.py --server.enableXsrfProtection=false --port 8765`.
 
 If you encounter issues, check the terminal for error messages. For questions or assistance, feel free to ask!
