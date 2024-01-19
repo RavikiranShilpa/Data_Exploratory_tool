@@ -1,6 +1,6 @@
 # Data Explorer Tool
 
-![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
+![Data Explorer Tool Logo]
 
 ## Overview
 
