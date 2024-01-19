@@ -37,22 +37,6 @@ markdown
 Copy code
 # Data Explorer Tool
 
-![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
-
-...
-
-## How to Run
-
--# Data Explorer Tool
-
-![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
-
-## How to Run
-
-# Data Explorer Tool
-
-![Data Explorer Tool Logo](<URL TO LOGO OR IMAGE>)
-
 ## How to Run
 
 1. **Clone the Repository:**
