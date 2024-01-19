@@ -333,18 +333,18 @@ def handle_user_queries_tab2():
     if user_question and selected_dataset:
         # Load the corresponding DataFrame based on the selected dataset
         if selected_dataset == "Agriculture Data":
-            response = answer_question(agriculture_df, user_question)
+            response = answer_question_opeanai(agriculture_df, user_question)
         elif selected_dataset == "Weather Data":
-            response = answer_question(weather_df, user_question)
+            response = answer_question_opeanai(weather_df, user_question)
         elif selected_dataset == "Economy Data":
-            response = answer_question(economy_df, user_question)
+            response = answer_question_opeanai(economy_df, user_question)
         elif selected_dataset == "Merged Data":
-            response = answer_question(merged_df, user_question)
+            response = answer_question_opeanai(merged_df, user_question)
         else:
             st.warning("Invalid dataset selection")
 
         # Now you can use the loaded DataFrame for answering questions
-        response = answer_question(data, user_question)
+        response = answer_question_opeanai(data, user_question)
 
         st.subheader("Answer:")
         st.write(response)
