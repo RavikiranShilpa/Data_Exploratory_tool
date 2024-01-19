@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Data Explorer Tool is a Python application designed to assist users in exploring, cleaning, and analyzing datasets. It provides interactive functionalities for data cleaning and exploration in one tab, and data analysis and prediction in another tab.
+The Data Explorer Tool is a Python application designed to assist users in exploring, cleaning, and analyzing datasets. It provides interactive functionalities for data cleaning and exploration in one tab, and data analysis  in another tab.
 
 ## Features
 
@@ -12,7 +12,7 @@ The Data Explorer Tool is a Python application designed to assist users in explo
   - Perform actions such as removing nulls, duplicates, and outliers, filling missing values, and more.
   - the ask the data tab here uses openAI and hence add the key in the code and run the code.
 
-- **Tab 2: Data Analysis and Prediction**
+- **Tab 2: Data Analysis **
   - Select from available datasets (Agriculture, Weather, Economy, Merged).
   - Ask questions about the selected dataset and receive answers(uses openAI)
 
